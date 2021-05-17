@@ -1,0 +1,22 @@
+.initLdGall {
+    display: flex;
+    flex-wrap: wrap;
+}
+.hide {
+    display: none;
+}
+.showMore, .showLess {
+    cursor: pointer;
+}
+.load-gall__innItems {
+    position: relative;
+}
+.load-gall__innItems:hover:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 200px;
+    background: #000000;
+}
